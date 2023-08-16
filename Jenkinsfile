@@ -7,7 +7,7 @@ pipeline   //the task which we are achieving
         stages {
                 stage('git clone') {
                         steps {
-                           git 'https://github.com/ajit40/maven-integration-sak.git'
+                           git 'https://github.com/vinutha18-m/jenkin2.git'
                         }
                 }
                 stage('compile') {
