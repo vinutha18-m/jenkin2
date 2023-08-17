@@ -2,7 +2,7 @@ pipeline
 {
     	agent any
     		tools {
-        			maven 'canara'
+        			maven 'maven'
   		}
     	stages {
         		stage('git clone') {
